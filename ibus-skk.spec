@@ -1,7 +1,7 @@
 Summary:	Japanese SKK input method for ibus
 Name:		ibus-skk
 Version:	1.3.7
-Release:	0.1
+Release:	1
 License:	GPL v2+
 Group:		Libraries
 Source0:	http://cloud.github.com/downloads/ueno/ibus-skk/%{name}-%{version}.tar.gz
