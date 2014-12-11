@@ -13,11 +13,11 @@ BuildRequires:	gettext-devel
 BuildRequires:	gtk+3-devel >= 3.0
 BuildRequires:	ibus-devel >= 1.4.0
 BuildRequires:	intltool >= 0.35.0
-BuildRequires:	libskk-devel >= 0.0.11
+BuildRequires:	libskk-devel >= 1.0.2
 # not required for releases
 #BuildRequires:	vala >= 2:0.10.0
 Requires:	ibus >= 1.4.0
-Requires:	libskk >= 0.0.11
+Requires:	libskk >= 1.0.2
 Requires:	skkdic
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -55,3 +55,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_libexecdir}/ibus-setup-skk
 %{_datadir}/ibus-skk
 %{_datadir}/ibus/component/skk.xml
+%{_desktopdir}/ibus-setup-skk.desktop
