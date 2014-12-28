@@ -9,7 +9,7 @@ Group:		Libraries
 Source0:	https://github.com/ueno/ibus-skk/releases/download/%{name}-%{version}/%{name}-%{version}.tar.gz
 # Source0-md5:	e2782498d1778a56a57999a1ff1032fb
 URL:		http://github.com/ueno/ibus-skk
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gtk+3-devel >= 3.0
 BuildRequires:	ibus-devel >= 1.4.0
 BuildRequires:	intltool >= 0.35.0
