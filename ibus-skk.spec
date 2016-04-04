@@ -5,7 +5,7 @@ Version:	1.4.2
 Release:	1
 License:	GPL v2+
 Group:		Libraries
-#Source0Download: https://github.com/ueno/ibus-skk/downloads
+#Source0Download: https://github.com/ueno/ibus-skk/releases
 Source0:	https://github.com/ueno/ibus-skk/releases/download/%{name}-%{version}/%{name}-%{version}.tar.gz
 # Source0-md5:	e2782498d1778a56a57999a1ff1032fb
 URL:		http://github.com/ueno/ibus-skk
