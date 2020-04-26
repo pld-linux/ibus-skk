@@ -1,22 +1,24 @@
 Summary:	Japanese SKK input method for IBus
 Summary(pl.UTF-8):	Metoda wprowadzania znaków japońskich SKK dla platformy IBus
 Name:		ibus-skk
-Version:	1.4.2
+Version:	1.4.3
 Release:	1
 License:	GPL v2+
 Group:		Libraries
 #Source0Download: https://github.com/ueno/ibus-skk/releases
-Source0:	https://github.com/ueno/ibus-skk/releases/download/%{name}-%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	e2782498d1778a56a57999a1ff1032fb
+Source0:	https://github.com/ueno/ibus-skk/releases/download/%{name}-%{version}/%{name}-%{version}.tar.xz
+# Source0-md5:	17b27a2044ff6b9577f7b7927d05876d
 URL:		http://github.com/ueno/ibus-skk
 BuildRequires:	gettext-tools
 BuildRequires:	gtk+3-devel >= 3.0
-BuildRequires:	ibus-devel >= 1.4.0
+BuildRequires:	ibus-devel >= 1.5.11
 BuildRequires:	intltool >= 0.35.0
 BuildRequires:	libskk-devel >= 1.0.2
+BuildRequires:	tar >= 1:1.22
 # not required for releases
 #BuildRequires:	vala >= 2:0.10.0
-Requires:	ibus >= 1.4.0
+BuildRequires:	xz
+Requires:	ibus >= 1.5.11
 Requires:	libskk >= 1.0.2
 Requires:	skkdic
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
